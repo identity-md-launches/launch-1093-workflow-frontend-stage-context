@@ -1,0 +1,56 @@
+[
+  {
+    "selector": "h1",
+    "foreground": "rgb(23, 46, 40)",
+    "background": "rgb(244, 243, 237)",
+    "ratio": 12.95708236813887
+  },
+  {
+    "selector": ".lede",
+    "foreground": "rgb(83, 100, 92)",
+    "background": "rgb(244, 243, 237)",
+    "ratio": 5.646802927161221
+  },
+  {
+    "selector": ".note",
+    "foreground": "rgb(83, 100, 92)",
+    "background": "rgb(251, 251, 246)",
+    "ratio": 6.047896180956079
+  },
+  {
+    "selector": ".stat-label",
+    "foreground": "rgb(83, 100, 92)",
+    "background": "rgb(244, 243, 237)",
+    "ratio": 5.646802927161221
+  },
+  {
+    "selector": ".primary",
+    "foreground": "rgb(251, 251, 246)",
+    "background": "rgb(32, 79, 66)",
+    "ratio": 8.958017562137202
+  },
+  {
+    "selector": ".eyebrow",
+    "foreground": "rgb(83, 100, 92)",
+    "background": "rgb(244, 243, 237)",
+    "ratio": 5.646802927161221
+  },
+  {
+    "selector": ".footer",
+    "foreground": "rgb(83, 100, 92)",
+    "background": "rgb(244, 243, 237)",
+    "ratio": 5.646802927161221
+  },
+  {
+    "selector": ".tool-aside",
+    "foreground": "rgb(23, 46, 40)",
+    "background": "rgb(233, 233, 223)",
+    "ratio": 11.788318679589452
+  },
+  {
+    "selector": ".coin.brain",
+    "foreground": "rgb(23, 46, 40)",
+    "background": "rgb(223, 235, 158)",
+    "ratio": 11.327932060810525
+  }
+]

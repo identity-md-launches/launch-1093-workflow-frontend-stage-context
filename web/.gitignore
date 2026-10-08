@@ -1,0 +1,8 @@
+# Explicit path budget: web/.gitignore only; generated directories at every depth.
+node_modules/
+.npm/
+.cache/
+.vite/
+playwright-report/
+test-results/
+*.tsbuildinfo

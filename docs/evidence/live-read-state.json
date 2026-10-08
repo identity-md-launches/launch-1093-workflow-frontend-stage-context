@@ -1,0 +1,11 @@
+{
+  "width": 1440,
+  "scrollWidth": 1440,
+  "supply": "1,000,000,000",
+  "stats": [
+    "Total Brain supply\n1,000,000,000\nFixed supply · no minting controls",
+    "Your Brain balance\nNot connected\nConnect a wallet to see your tokens",
+    "Pool observation\nInitialized\nRead at 9:15:20 PM · block 26150302"
+  ],
+  "deploymentCheck": ""
+}

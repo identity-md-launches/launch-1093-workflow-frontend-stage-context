@@ -1,0 +1,70 @@
+[
+  {
+    "width": 1440,
+    "violations": [],
+    "incompleteRules": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".swap-divider"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "violations": [],
+    "incompleteRules": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".swap-divider"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "violations": [],
+    "incompleteRules": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".swap-divider"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "width": 320,
+    "violations": [],
+    "incompleteRules": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".swap-divider"
+            ],
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  }
+]

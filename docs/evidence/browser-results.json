@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-10-08T21:15:20.686Z",
+  "servedFrom": "/preview/",
+  "browser": "Chromium 153.0.8010.12 (Playwright)",
+  "deploymentManifestSha256": "dfde5b02af37ad7a4190acf9b14f4d8b7c2b40cbbadc0ce497407df4f905aceb",
+  "total": 17,
+  "passed": 17,
+  "failed": 0,
+  "externalEndpointsIntercepted": [
+    "https://ethereum-rpc.publicnode.com/"
+  ],
+  "allExternalRequestsIntercepted": true,
+  "noLiveTransactions": true,
+  "fixtures": "Injected EIP-1193 browser wallet, ABI-encoded public RPC responses, mocked receipts",
+  "limitations": [
+    "Mocked chain state does not prove a live quote or swap succeeds.",
+    "No real funds, signatures, or broadcasts were used.",
+    "Automated axe checks do not replace a screen-reader audit.",
+    "200% text enlargement is not browser-native zoom.",
+    "No physical mobile device or native-wallet extension tested."
+  ],
+  "results": [
+    {
+      "name": "Disconnected visitor and missing-wallet recovery",
+      "status": "passed",
+      "durationMs": 651
+    },
+    {
+      "name": "Rejected wallet connection leaves trading disabled",
+      "status": "passed",
+      "durationMs": 656
+    },
+    {
+      "name": "Wrong chain blocks actions; 4902 adds exact configured network then switches",
+      "status": "passed",
+      "durationMs": 938
+    },
+    {
+      "name": "Attested ABI corruption fails closed",
+      "status": "passed",
+      "durationMs": 430
+    },
+    {
+      "name": "Missing deployed bytecode blocks trading",
+      "status": "passed",
+      "durationMs": 619
+    },
+    {
+      "name": "ERC20 buy quote, two explicit approvals, simulated swap and receipt",
+      "status": "passed",
+      "durationMs": 1410
+    },
+    {
+      "name": "Insufficient balance prevents quote or submission",
+      "status": "passed",
+      "durationMs": 723
+    },
+    {
+      "name": "Sell direction, quote invalidation and slippage validation",
+      "status": "passed",
+      "durationMs": 968
+    },
+    {
+      "name": "Failed quote shows the revert and supports a successful retry",
+      "status": "passed",
+      "durationMs": 962
+    },
+    {
+      "name": "Router simulation failure is visible and never requests a signature",
+      "status": "passed",
+      "durationMs": 910
+    },
+    {
+      "name": "Rejected transaction displays recovery without submitting",
+      "status": "passed",
+      "durationMs": 867
+    },
+    {
+      "name": "Account and chain changes invalidate active quotes",
+      "status": "passed",
+      "durationMs": 852
+    },
+    {
+      "name": "Account change during a delayed quote cannot restore stale trading controls",
+      "status": "passed",
+      "durationMs": 1353
+    },
+    {
+      "name": "Token transfer validates address and requires explicit review",
+      "status": "passed",
+      "durationMs": 1010
+    },
+    {
+      "name": "Token approval and revoke controls submit the reviewed allowance",
+      "status": "passed",
+      "durationMs": 1185
+    },
+    {
+      "name": "Delegated transfer checks allowance then confirms transferFrom",
+      "status": "passed",
+      "durationMs": 954
+    },
+    {
+      "name": "Responsive reflow, keyboard operation, reduced motion and automated accessibility",
+      "status": "passed",
+      "durationMs": 7322
+    }
+  ]
+}

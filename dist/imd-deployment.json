@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "launchId": "8f32ba35-6553-4654-9ae0-ece092e9b986",
+  "chainId": 1,
+  "sourceCommit": "a5cf6337f3d3aa217dcbaaf4337d03b7a583db46",
+  "attestationHash": "be27e73bf689c8ddc71699cd6c9629c9f07b081f33281701628f7258d8c5b1e3",
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "address": "0xc244d8e912c095aa2bb56e911a30c44e38369e78",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "abiPath": "abi/LaunchToken.json"
+    }
+  ],
+  "poolKey": {
+    "fee": 12500,
+    "hooks": "0x784ff9a3ac5d88a30bfff6f7f2a270161fbe6000",
+    "currency0": "0xc244d8e912c095aa2bb56e911a30c44e38369e78",
+    "currency1": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "tickSpacing": 60
+  },
+  "network": {
+    "chainId": 1,
+    "name": "Ethereum",
+    "testnet": false,
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "explorer": "https://etherscan.io",
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [],
+    "uniswapV4": {
+      "poolManager": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "universalRouter": "0x66a9893cc07d91d95644aedd05d03f95e1dba8af",
+      "quoter": "0x52f0e24d1c21c8a0cb1e5a5dd6198556bd9e1203",
+      "stateView": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+      "positionManager": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    },
+    "pairToken": {
+      "address": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+      "symbol": "IMD",
+      "name": "Identity.md",
+      "decimals": 18
+    },
+    "otherPairTokens": [
+      {
+        "id": "fwa",
+        "address": "0xa0df17b5ac76ababa36e1450e2cbcd18a620c845",
+        "symbol": "FWA",
+        "name": "Fake World Assets",
+        "decimals": 18
+      }
+    ]
+  },
+  "walletAddChain": {
+    "chainId": "0x1",
+    "chainName": "Ethereum",
+    "rpcUrls": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://etherscan.io"
+    ]
+  },
+  "assets": [
+    {
+      "path": "abi/LaunchToken.json",
+      "sha256": "9578fcb499b4ba5fac51462a67a2654d9f803e0ea3af9bdb19130ff695808542"
+    },
+    {
+      "path": "assets/ccip-Bo2GxBjE.js",
+      "sha256": "2782de332feed716663173951f061873c3446fbc3895d848908bfb4ad93d0d10"
+    },
+    {
+      "path": "assets/index-kRcEZGXb.css",
+      "sha256": "f3067a6cc970fe15138b4b951274c7c6ea20da3cf9db35fb76ae0bd2cd60dd91"
+    },
+    {
+      "path": "assets/index-pzN-vmwX.js",
+      "sha256": "782b851c0c1262cc4fc3b8afaa1e28c3fff04071993545abb62b3181e01bcccc"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "f8b821437ba8e6ef540846471fbb2bcb10e9759e15efd73f2fcc70ded47fd5aa"
+    },
+    {
+      "path": "index.html",
+      "sha256": "713ac66b0f0c78c8d14e587ad0768683106bfee40bf58dfcaf6958b1c8f0a7b7"
+    }
+  ]
+}
